@@ -1,0 +1,24 @@
+[[package]]
+name = "colored"
+version = "1.4.4"
+description = "Simple library for color and formatting to terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pygame"
+version = "2.3.0"
+description = "Python Game Development"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "9a4fd3dcbfefb9c7d48d32ce71efab4668ad6a43ca79bd8b590f55a88253f019"
+
+[metadata.files]
+colored = []
+pygame = []
