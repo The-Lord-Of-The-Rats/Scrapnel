@@ -1,5 +1,6 @@
-import time, random, sys, math, pygame, turtle
+import time, random, sys, math, pygame
 import entity
+import scavver
 #import threading
 #import colored
 
@@ -18,6 +19,7 @@ basicdirt =  pygame.image.load("assets/bestdirt2.png")
 #basicdirt = pygame.Surface((886,886))
 
 while True:
+    ## handle pygame events
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
         # or event.type == pygame.KEYUP:
@@ -33,8 +35,17 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == 9:
                 pygame.display.toggle_fullscreen()
+
+    # timed events (spawning new entities, etc)
+
+              
+    # update each entity
+
+
+    # draw screen
     screen.blit(basicdirt,(0,0))
     screen.blit(title,(0.2,0.2))
+  
     pygame.display.update()
     clock.tick(20)
     

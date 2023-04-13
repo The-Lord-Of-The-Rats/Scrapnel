@@ -1,1 +1,21 @@
+Reminder: Material Darker theme
 
+N - Neutral
+H - Hostile
+P - Passive
+PH - Passive Hostile (Mainly used for Ethan)
+
+Reminder: Build a list of keybind to display in the top right.
+
+level builder
+save/load from a text file
+possible binary like this v
+00111111100000000000000000000000
+00110001100000000000000000000000
+00111111100000000000000000000000
+or spaces/letters?
+  wwwwwwww            
+  ww    ww
+  wwwwwwww
+
+<3 omg ^ i love this
